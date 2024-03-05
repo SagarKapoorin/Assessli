@@ -14,6 +14,13 @@ Send data to a Google Spreadsheet via a POST request to store data.
 
 Although not currently used, the project includes a function to retrieve data from a Google Spreadsheet.
 
+## How i Integerate Sheet API
+
+1. Make a Google Sheet
+2. Go to App Script
+3. Write Logic of API (like Backend)
+4. Deploy it
+
    ## Installation
 
    Clone the repository and install dependencies:

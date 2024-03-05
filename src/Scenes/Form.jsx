@@ -21,22 +21,16 @@ const Form = () => {
           });
     }
     const sendData = async (data) => {
-        try {
-          const response = await fetch('https://script.google.com/macros/s/AKfycbxRyfKPeub37hXgPIyAHD70AMCVxrUt-J1sXAz2GBtGb3DlaTZMOvfBtBlZYvjypaNf_A/exec', {
-            method: 'POST',
-            headers: {
-              'Content-Type': 'application/json',
-            },
+            fetch('https://script.google.com/macros/s/AKfycbyIvnJmMUZ3Qv5fVpT4_5z3AgvOdjWZ2GQJVZRHe-11biSN1g5V2Cn-owW3Gcco1miJEA/exec', {
+            method: "POST",
             body: JSON.stringify(data),
-          });
-      
-          if (!response.ok) {
-            throw new Error('Failed to send data');
-          }
-          const result = await response.json();
-        } catch (error) {
-          console.error('Error:', error);
-        }
+            headers: {
+              "Content-Type": "text/plain;charset=utf-8",
+            },
+          })
+      .then(response => {
+            console.log("success:", response);
+        });
       };
   const handleFormSubmit =async (values) => {
         const {firstName,lastName,email,contact,address1,message}=values;
@@ -151,7 +145,7 @@ const Form = () => {
             </Box>
             <Box display="flex" justifyContent="end" mt="20px">
               <Button type="submit" color="secondary" variant="contained">
-                Create New User
+                Send it!!
               </Button>
             </Box>
           </form>

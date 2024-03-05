@@ -19,7 +19,7 @@ Although not currently used, the project includes a function to retrieve data fr
    Clone the repository and install dependencies:
 
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/SagarKapoorin/Assessli.git
    cd Assessli
    npm install
    ```

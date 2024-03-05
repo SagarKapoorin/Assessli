@@ -1,6 +1,6 @@
 # Contact Us Page
 
-   ## Features
+ ## Features
 
 ### 1. Dark and Light Mode
 
@@ -14,6 +14,14 @@ Send data to a Google Spreadsheet via a POST request to store data.
 
 Although not currently used, the project includes a function to retrieve data from a Google Spreadsheet.
 
+### 4. Validation
+
+I also apply Validation
+
+### 5. Responsive
+
+Full Web APP is Responsive
+
 ## How i Integerate Sheet API
 
 1. Make a Google Sheet
@@ -21,23 +29,23 @@ Although not currently used, the project includes a function to retrieve data fr
 3. Write Logic of API (like Backend)
 4. Deploy it
 
-   ## Installation
+## Installation
 
-   Clone the repository and install dependencies:
+Clone the repository and install dependencies:
 
-   ```bash
-   git clone https://github.com/SagarKapoorin/Assessli.git
-   cd Assessli
-   npm install
-   ```
+```bash
+git clone https://github.com/SagarKapoorin/Assessli.git
+cd Assessli
+npm install
+ ```
 
-   ## Usage
+ ## Usage
 
-   Run the development server:
+Run the development server:
 
-   ```bash
-   npm run dev
-   ```
+```bash
+ npm run dev
+```
 
-   Open your browser and navigate to `http://localhost:5173` to view the app.
+Open your browser and navigate to `http://localhost:5173` to view the app.
 
